@@ -7,8 +7,10 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
 
-public class activity7 {
-    public static void main(String[] args) {
+public class activity7
+{
+    public static void main(String[] args)
+    {
         WebDriverManager.firefoxdriver().setup();
         WebDriver driver = new FirefoxDriver();
         driver.get("https://v1.training-support.net/selenium/drag-drop");
